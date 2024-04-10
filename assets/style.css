@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 6px solid red; */
+    /* background-color: red; */
+    /* color: white; */
+
+}
+
+ /* media query for mobile device */
+@media only screen and (max-width: 600px) {
+    .container {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      width: 100% !important;
+      transform: translateY(0rem) !important;
+      border-radius: 0px !important;
+      border: none !important;
+      padding: 0.2rem !important;
+    }
+
+    .headingWrapper h1{
+        /* color: green !important; */
+        font-size: 1.2rem;
+    }
+
+    .linkWrapper{
+        width: 35% !important;
+    }
+
+    
+  }
+
